@@ -1,0 +1,12 @@
+{
+  "name": "cloudflare-d1-todo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --d1 DB=cloudflare-d1-todo-db",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
